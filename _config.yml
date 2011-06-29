@@ -1,0 +1,8 @@
+lsi:         true
+pygments:    true
+markdown:    rdiscount
+permalink:   date
+
+exclude:
+  - README.md
+  - config.rb
