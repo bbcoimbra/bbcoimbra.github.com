@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ambiente de configuração em 7 ítens
+title: Ambiente de configuração em 7 ítens
 ---
 
 Dando continuidade a essa enquete nerd (à convite do

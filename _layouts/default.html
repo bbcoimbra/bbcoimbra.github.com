@@ -6,59 +6,49 @@
 		<meta name="author" content="Bruno de Brito Coimbra" />
 		<meta name="description" content="Blog pessoal de Bruno de Brito Coimbra" />
 		<meta name="keywords" content="programação, bbcoimbra, ruby, C, compiladores, linux, vim"/>
-		<link rel="stylesheet" href="/stylesheets/ie.css" type="text/css" />
-		<link rel="stylesheet" href="/stylesheets/print.css" type="text/css" />
-		<link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" />
+		<link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+		<!--[if lt IE 8]>
+		<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<![endif]-->
 		<link rel="stylesheet" href="/stylesheets/pygments.css" type="text/css" />
 		<link rel="stylesheet" href="/stylesheets/style.css" type="text/css" />
 		<title>{% if page.title %} {{page.title}} | {% endif %}bbcoimbra's Blog</title>
 	</head>
-	<body>
-		<header>
-		<h1>bbcoimbra's Blog</h1>
-		<h3>wyrd bið ful aræd</h3>
-		</header>
-		<div id='main'>
+	<body class="two-col">
+		<div id="container">
+			<header id="header">
+				<hgroup>
+					<h1>bbcoimbra's Blog</h1>
+					<h3>wyrd bið ful aræd</h3>
+				</hgroup>
+			</header>
 			<div id='content'>
 				{{ content }}
 			</div>
-			<div id='right_pane'>
+			<aside id='sidebar'>
 				<div id='banners'>
 					<div class='banner'>
-					<a href="http://www.qconsp.com"><img src='/images/banner_qconsp.gif'></a>
+						<a href="http://www.qconsp.com"><img src='/images/banner_qconsp.gif'></a>
+					</div>
 				</div>
-				</div>
-				<div id='contacts' class='right_pane'>
+				<div id='contacts'>
 					<h1>Contatos</h1>
-					<nav>
 					<ul>
 						<li><a href='http://facebook.com/bbcoimbra'>Facebook</a></li>
 						<li><a href='http://github.com/bbcoimbra'>GitHub</a></li>
 						<li><a href='http://linkedin.com/in/bbcoimbra'>LinkedIn</a></li>
 						<li><a href='http://twitter.com/bbcoimbra'>Twitter</a></li>
 					</ul>
-					</nav>
 				</div>
 				<div id='blogroll'>
 					<h1>Blogroll</h1>
-					<a href='http://qmx.me/'>qmx Weblog</a>
+					<ul>
+						<li><a href='http://qmx.me/'>qmx Weblog</a></li>
+					</ul>
 				</div>
-				<!--
-				<div id='publicity'>
-					<script type="text/javascript">
-						bb_bid = "1622741";
-						bb_lang = "pt-BR";
-						bb_keywords = "ti, ciência da computação, software";
-						bb_name = "custom";
-						bb_limit = "5";
-						bb_format = "bbd";
-						</script>
-						<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
-					</div>
-				</div>
-				-->
+			</aside>
+			<footer id="footer">
+			</footer>
 		</div>
-		<footer>
-		</footer>
 	</body>
 </html>

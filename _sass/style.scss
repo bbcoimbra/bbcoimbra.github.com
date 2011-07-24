@@ -1,0 +1,83 @@
+@import "blueprint/reset";
+@import "partials/base";
+@import "blueprint";
+
+@import "partials/colors";
+@import "partials/page";
+@import "partials/form";
+@import "partials/two_col";
+@import "partials/mixins";
+
+body {
+	background: $background_color;
+	color: $main_font_color;
+}
+
+
+a {color: $link_color;}
+
+#header {
+	margin-bottom: 20px;
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 45px;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+}
+
+.nav_all_posts {
+	margin-bottom: 20px;
+	h1 {
+		margin: 20px 0 10px 0;
+		font-size: 35px;
+	}
+}
+
+.post {
+	padding-bottom: 25px;
+	border-bottom: 2px solid $side_block_color;
+	margin-bottom: 15px;
+	header {
+		margin: 1em 0;
+		h1 {
+			font-weight: bold;
+		}
+		h3 {
+			font-size: 15px;
+			font-style: italic;
+		}
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		margin: 20px 0 10px 0;
+		font-size: 25px;
+	}
+}
+
+.nav_all_posts  {
+
+}
+
+
+#banners {
+	@include right_box;
+	.banner {
+		@include banner;
+		a {
+			display: block;
+		}
+	}
+}
+
+#contacts {
+	@include right_box;
+}
+

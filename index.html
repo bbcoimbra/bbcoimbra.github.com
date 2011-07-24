@@ -2,14 +2,24 @@
 layout: default
 ---
 <div id='posts'>
-	{% post = site.posts[0] %}
-	<div class='post'>
-	<h1><a href="{{post.url}}">{{post.title}}</a></h1>
+	{% assign posts = site.posts %}
+	{% assign post = posts.first %}
+	<article class='post'>
+		<header>
+			<h1>{{post.title}}</h1>
+			<h3>{{post.date}}</h3>
+		</header>
 		{{ post.content }}
-	</div>
-	<ul class='posts'>
-		{% for post in site.posts[1..-1] %}
-			<li><a href="{{post.url}}">{{post.title}}</a></li>
+	</article>
+</div>
+<nav class=nav_all_posts>
+	<h1>Todos os posts</h1>
+	<ul>
+		{% for post in site.posts %}
+		<li>
+			<a href="{{post.url}}">{{post.title}}</a>
+		</li>
 		{% endfor %}
 	</ul>
-</div>
+</nav>
+

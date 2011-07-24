@@ -1,0 +1,13 @@
+@mixin right_box {
+	background: $side_block_color;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+@mixin banner {
+	padding: 10px 0;
+	width: 210px;
+	margin: 0 auto;
+}
