@@ -215,38 +215,41 @@ body { background: #594f4f; color: #e5fcc2; }
 a { color: #9de0ad; }
 
 /* line 19, ../_sass/style.scss */
-#header { margin-bottom: 20px; }
+img { display: block; }
+
 /* line 21, ../_sass/style.scss */
+#header { margin-bottom: 20px; }
+/* line 23, ../_sass/style.scss */
 #header h1 { font-size: 60px; }
-/* line 25, ../_sass/style.scss */
+/* line 27, ../_sass/style.scss */
 #header h2 { font-size: 45px; }
-/* line 29, ../_sass/style.scss */
+/* line 31, ../_sass/style.scss */
 #header h3 { font-size: 30px; }
 
-/* line 34, ../_sass/style.scss */
-.nav_all_posts { margin-bottom: 20px; }
 /* line 36, ../_sass/style.scss */
+.nav_all_posts { margin-bottom: 20px; }
+/* line 38, ../_sass/style.scss */
 .nav_all_posts h1 { margin: 20px 0 10px 0; font-size: 35px; }
 
-/* line 42, ../_sass/style.scss */
+/* line 44, ../_sass/style.scss */
 .post { padding-bottom: 25px; border-bottom: 2px solid #45ada8; margin-bottom: 15px; }
-/* line 46, ../_sass/style.scss */
-.post header { margin: 1em 0; }
 /* line 48, ../_sass/style.scss */
+.post header { margin: 1em 0; }
+/* line 50, ../_sass/style.scss */
 .post header h1 { font-weight: bold; }
-/* line 51, ../_sass/style.scss */
+/* line 53, ../_sass/style.scss */
 .post header h3 { font-size: 15px; font-style: italic; }
-/* line 56, ../_sass/style.scss */
+/* line 58, ../_sass/style.scss */
 .post h1 { font-size: 30px; }
-/* line 59, ../_sass/style.scss */
+/* line 61, ../_sass/style.scss */
 .post h2 { margin: 20px 0 10px 0; font-size: 25px; }
 
-/* line 70, ../_sass/style.scss */
-#banners { background: #45ada8; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; margin-bottom: 20px; }
 /* line 72, ../_sass/style.scss */
-#banners .banner { padding: 10px 0; width: 210px; margin: 0 auto; }
+#banners { background: #45ada8; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; margin-bottom: 20px; }
 /* line 74, ../_sass/style.scss */
+#banners .banner { padding: 10px 0; width: 210px; margin: 0 auto; }
+/* line 76, ../_sass/style.scss */
 #banners .banner a { display: block; }
 
-/* line 80, ../_sass/style.scss */
+/* line 82, ../_sass/style.scss */
 #contacts { background: #45ada8; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; margin-bottom: 20px; }
