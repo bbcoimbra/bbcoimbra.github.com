@@ -15,6 +15,8 @@ body {
 a {color: $link_color;}
 img {display: block;}
 
+.clear { clear:both; }
+
 #header {
 	@include border;
 	margin-bottom: 20px;
@@ -31,7 +33,7 @@ img {display: block;}
 	}
 }
 
-#container {
+#middle {
 	@include border;
 	border: 4px solid $link-color;
 	color: $main_font_color;
