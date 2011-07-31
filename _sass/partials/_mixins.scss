@@ -1,9 +1,12 @@
-@mixin right_box {
-	background: $side_block_color;
-	color: $background_color;
+@mixin border {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
+}
+@mixin right_box {
+	@include border;
+	background: $side_block_color;
+	color: $background_color;
 	margin-bottom: 20px;
 	padding: 5px 10px;
 	font-size: 15px;
