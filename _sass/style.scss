@@ -87,6 +87,10 @@ img {display: block;}
 	}
 }
 
+#ads {
+	@include right_box;
+}
+
 #contacts {
 	@include right_box;
 }
