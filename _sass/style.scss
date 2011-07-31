@@ -11,6 +11,7 @@
 body {
 	background: $background_color;
 	color: $main_font_color;
+	font-family: $main-font;
 }
 
 
@@ -62,6 +63,16 @@ img {display: block;}
 		margin: 20px 0 10px 0;
 		font-size: 25px;
 	}
+	p {
+		padding: 10px 0;
+	}
+	pre {
+		margin: 10px 0;
+		padding: 15px 0 15px 10px;
+		background: #eee;
+		color: $background-color;
+		font-family: currier-new, monospace;
+	}
 }
 
 .nav_all_posts  {
@@ -73,9 +84,6 @@ img {display: block;}
 	@include right_box;
 	.banner {
 		@include banner;
-		a {
-			display: block;
-		}
 	}
 }
 
@@ -83,3 +91,9 @@ img {display: block;}
 	@include right_box;
 }
 
+#blogroll {
+	@include right_box;
+	ul {
+		border-bottom: 1px dotted $link-color;
+	}
+}

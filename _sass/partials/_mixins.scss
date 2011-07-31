@@ -1,13 +1,31 @@
 @mixin right_box {
 	background: $side_block_color;
+	color: $background_color;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	margin-bottom: 20px;
+	padding: 5px 10px;
+	font-size: 15px;
+	h1 {
+		font-size: 25px;
+		margin-bottom: 5px;
+	}
+	ul {
+		list-style: none;
+		padding: 5px 0 5px 0;
+		margin: 5px 0;
+		li {
+			a {
+				color: $background_color;
+			}
+		}
+	}
+
 }
 
 @mixin banner {
-	padding: 10px 0;
 	width: 210px;
+	padding: 5px;
 	margin: 0 auto;
 }
