@@ -33,6 +33,16 @@ img {display: block;}
 	}
 }
 
+.menu {
+	margin-bottom: 25px;
+	ul {
+		list-style: none;
+		li {
+			display: inline;
+		}
+	}
+}
+
 #middle {
 	@include border;
 	border: 4px solid $link-color;
