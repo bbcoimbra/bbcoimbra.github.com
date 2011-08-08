@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<nav class=nav_all_posts>
+	<h1>Todos os posts</h1>
+	<ul>
+		{% for post in site.posts %}
+		<li>
+			<a href="{{post.url}}">{{post.title}}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</nav>
+
