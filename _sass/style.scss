@@ -95,6 +95,11 @@ img {display: block;}
 	}
 	p {
 		padding: 10px 0;
+		position: relative;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
 	}
 	pre {
 		margin: 10px 0;
