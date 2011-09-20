@@ -100,6 +100,12 @@ img {display: block;}
 	p {
 		padding: 10px 0;
 		position: relative;
+		em {
+			font-style: italic;
+		}
+		strong {
+			font-weight: bold;
+		}
 		img {
 			display: block;
 			margin: 0 auto;
