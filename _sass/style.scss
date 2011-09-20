@@ -129,6 +129,16 @@ img {display: block;}
 	}
 }
 
+#container {
+	position: relative;
+	#footer {
+		position: relative;
+		display: block;
+		width: 250px;
+		margin: 10px auto 0;
+		font-size: 10px;
+	}
+}
 
 #banners {
 	@include right_box;
