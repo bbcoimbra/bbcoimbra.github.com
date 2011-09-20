@@ -28,7 +28,8 @@ O processo de compilação é bastante complexo e costuma ser dividido em módul
 para que seja mais facilmente compreendido e implementado. Um esquema
 arquitertural é demonstrado na figura abaixo:
 
-![Esquema do Compilador][compiler-arquiteture].
+![Esquema do Compilador][compiler-arquiteture]
+<legend>Fonte: http://www.cs.uaf.edu/~cs631/notes/ </legend>
 
 Segundo este esquema, temos três grupos de módulos: os que compõe o Front-end,
 os que compõe o Back-end e outro que interage com todos os outros módulos
