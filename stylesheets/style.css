@@ -222,94 +222,105 @@ body { background: white; }
 
 /* line 15, ../_sass/style.scss */
 a { color: #dd3333; }
-
-/* line 18, ../_sass/style.scss */
-img { display: block; }
-
-/* line 20, ../_sass/style.scss */
-.clear { clear: both; }
+/* line 17, ../_sass/style.scss */
+a img { margin: 0 auto; }
 
 /* line 22, ../_sass/style.scss */
+img { display: block; }
+
+/* line 24, ../_sass/style.scss */
+.clear { clear: both; }
+
+/* line 26, ../_sass/style.scss */
 #header { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; margin-bottom: 20px; }
-/* line 25, ../_sass/style.scss */
+/* line 29, ../_sass/style.scss */
 #header h1 { font-size: 60px; color: #636363; text-align: right; }
-/* line 31, ../_sass/style.scss */
-#header h2 { font-size: 45px; }
 /* line 35, ../_sass/style.scss */
+#header h2 { font-size: 45px; }
+/* line 39, ../_sass/style.scss */
 #header h3 { font-size: 30px; color: #9c9c9c; text-align: right; }
 
-/* line 42, ../_sass/style.scss */
-.menu { margin-bottom: 25px; }
-/* line 44, ../_sass/style.scss */
-.menu ul { list-style: none; }
 /* line 46, ../_sass/style.scss */
+.menu { margin-bottom: 25px; }
+/* line 48, ../_sass/style.scss */
+.menu ul { list-style: none; }
+/* line 50, ../_sass/style.scss */
 .menu ul li { display: inline; }
 
-/* line 52, ../_sass/style.scss */
+/* line 56, ../_sass/style.scss */
 #middle { color: #636363; font-family: helvetica, sans-serif; }
 
-/* line 57, ../_sass/style.scss */
+/* line 61, ../_sass/style.scss */
 #content { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; border: 4px solid #9c9c9c; padding: 10px 20px; }
 
-/* line 63, ../_sass/style.scss */
+/* line 67, ../_sass/style.scss */
 .nav_all_posts { margin-bottom: 20px; }
-/* line 65, ../_sass/style.scss */
+/* line 69, ../_sass/style.scss */
 .nav_all_posts h1 { margin: 20px 0 10px 0; font-size: 35px; }
 
-/* line 71, ../_sass/style.scss */
-.post { padding-bottom: 25px; border-bottom: 2px solid #9c9c9c; margin-bottom: 15px; }
 /* line 75, ../_sass/style.scss */
+.post { padding-bottom: 25px; border-bottom: 2px solid #9c9c9c; margin-bottom: 15px; }
+/* line 79, ../_sass/style.scss */
 .post header { margin: 1em 0; }
-/* line 77, ../_sass/style.scss */
+/* line 81, ../_sass/style.scss */
 .post header h1 { font-weight: bold; }
-/* line 80, ../_sass/style.scss */
+/* line 84, ../_sass/style.scss */
 .post header h3 { font-size: 15px; font-style: italic; }
-/* line 85, ../_sass/style.scss */
+/* line 89, ../_sass/style.scss */
 .post h1 { font-size: 30px; }
-/* line 88, ../_sass/style.scss */
-.post h2 { margin: 20px 0 10px 0; font-size: 25px; }
 /* line 92, ../_sass/style.scss */
-.post h3 { margin-top: 10px; font-size: 20px; }
+.post h2 { margin: 20px 0 10px 0; font-size: 25px; }
 /* line 96, ../_sass/style.scss */
+.post h3 { margin-top: 10px; font-size: 20px; }
+/* line 100, ../_sass/style.scss */
 .post p { padding: 10px 0; position: relative; }
-/* line 99, ../_sass/style.scss */
+/* line 103, ../_sass/style.scss */
+.post p em { font-style: italic; }
+/* line 106, ../_sass/style.scss */
+.post p strong { font-weight: bold; }
+/* line 109, ../_sass/style.scss */
 .post p img { display: block; margin: 0 auto; }
-/* line 104, ../_sass/style.scss */
+/* line 114, ../_sass/style.scss */
 .post pre { margin: 10px 0; padding: 15px 0 15px 10px; background: #eee; color: #636363; font-family: currier-new, monospace; }
-/* line 111, ../_sass/style.scss */
+/* line 121, ../_sass/style.scss */
 .post ul { margin-left: 20px; }
 
-/* line 117, ../_sass/style.scss */
+/* line 127, ../_sass/style.scss */
 .nav_all_posts ul { list-style: none; }
 
-/* line 123, ../_sass/style.scss */
+/* line 132, ../_sass/style.scss */
+#container { position: relative; }
+/* line 134, ../_sass/style.scss */
+#container #footer { position: relative; display: block; width: 250px; margin: 10px auto 0; font-size: 10px; }
+
+/* line 143, ../_sass/style.scss */
 #banners { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #9c9c9c; color: white; margin-bottom: 20px; padding: 5px 10px; font-size: 15px; }
 /* line 13, ../_sass/partials/_mixins.scss */
 #banners h1 { font-size: 25px; margin-bottom: 5px; }
 /* line 17, ../_sass/partials/_mixins.scss */
 #banners ul { list-style: none; padding: 5px 0 5px 0; margin: 5px 0; }
-/* line 125, ../_sass/style.scss */
+/* line 145, ../_sass/style.scss */
 #banners .banner { width: 210px; padding: 5px; margin: 0 auto; }
 
-/* line 130, ../_sass/style.scss */
+/* line 150, ../_sass/style.scss */
 #ads { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #9c9c9c; color: white; margin-bottom: 20px; padding: 5px 10px; font-size: 15px; }
 /* line 13, ../_sass/partials/_mixins.scss */
 #ads h1 { font-size: 25px; margin-bottom: 5px; }
 /* line 17, ../_sass/partials/_mixins.scss */
 #ads ul { list-style: none; padding: 5px 0 5px 0; margin: 5px 0; }
 
-/* line 134, ../_sass/style.scss */
+/* line 154, ../_sass/style.scss */
 #contacts { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #9c9c9c; color: white; margin-bottom: 20px; padding: 5px 10px; font-size: 15px; }
 /* line 13, ../_sass/partials/_mixins.scss */
 #contacts h1 { font-size: 25px; margin-bottom: 5px; }
 /* line 17, ../_sass/partials/_mixins.scss */
 #contacts ul { list-style: none; padding: 5px 0 5px 0; margin: 5px 0; }
 
-/* line 138, ../_sass/style.scss */
+/* line 158, ../_sass/style.scss */
 #blogroll { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #9c9c9c; color: white; margin-bottom: 20px; padding: 5px 10px; font-size: 15px; }
 /* line 13, ../_sass/partials/_mixins.scss */
 #blogroll h1 { font-size: 25px; margin-bottom: 5px; }
 /* line 17, ../_sass/partials/_mixins.scss */
 #blogroll ul { list-style: none; padding: 5px 0 5px 0; margin: 5px 0; }
-/* line 140, ../_sass/style.scss */
+/* line 160, ../_sass/style.scss */
 #blogroll ul { border-bottom: 1px dotted #dd3333; }
