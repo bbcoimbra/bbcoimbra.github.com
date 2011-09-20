@@ -14,7 +14,11 @@ body {
 
 a {
 	color: $link_color;
+	img {
+		margin: 0 auto;
+	}
 }
+
 img {display: block;}
 
 .clear { clear:both; }
