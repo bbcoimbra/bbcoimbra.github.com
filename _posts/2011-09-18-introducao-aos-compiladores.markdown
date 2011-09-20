@@ -95,7 +95,6 @@ O Analisador Léxico produziria os seguintes _tokens_
 com essa sequência de *tokens*, o Analisador Sintático gerará uma Árvore
 Sintática parecida com a que temos a seguir:
 
-<nomarkdown>
 <pre>
           =
         /   \
@@ -103,7 +102,6 @@ Sintática parecida com a que temos a seguir:
            /   \
         42.5    13
 </pre>
-</nomarkdown>
 
 em que **id** é o identificador (variável) "resultado".
 
