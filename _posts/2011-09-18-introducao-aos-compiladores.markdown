@@ -85,7 +85,9 @@ gerará o programa-executável.
 Para facilitar o entendimento daquilo que foi lido até agora, vou utilizar um
 exemplo. Dado que tenhamos a expreesão numérica a seguir:
 
-	resultado = 42.5 + 13;
+{% highlight ruby %}
+resultado = 42.5 + 13;
+{% endhighlight %}
 
 O Analisador Léxico produziria os seguintes _tokens_ 
 
@@ -118,11 +120,13 @@ executada. Outra verificação que deve ser efetuada é se o a variável
 Por fim, o Gerador de Código precisa gerar o código assembly conforme abaixo.
 Nota, não testei o código abaixo:
 
-	ldf  eax, 42.5
-	ldf  ebx, 13.0
-	fadd eax, ebx
-	ld   ebx, resultado
-	stf  [ebx], eax
+{% highlight nasm %}
+ldf  eax, 42.5
+ldf  ebx, 13.0
+fadd eax, ebx
+ld   ebx, resultado
+stf  [ebx], eax
+{% endhighlight %}
 
 Primeiramente, os números são carregados para os registradores do processador,
 em seguida, os valores são somados e armazenados no registrador *eax*,
