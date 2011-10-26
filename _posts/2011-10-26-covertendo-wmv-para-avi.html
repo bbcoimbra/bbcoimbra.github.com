@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Convertendo vídeos wmv para avi com o mencoder"
+---
+<p>
+	Hoje precisei converter um arquivo de vídeo do formato proprietário gerado
+	pelo Windows&copy; para um formato padrão (mp4 num container avi, por
+	exemplo).
+</p>
+<p>
+	Para fazê-lo de forma rápida, tendo o <em>mencoder</em> instalado, basta
+	executar o comando abaixo:
+</p>
+
+{% highlight bash %}
+$ mencoder infile.wmv -ofps 23.976 -ovc lavc \
+  -oac copy -o outfile.avi
+{% endhighlight %}
