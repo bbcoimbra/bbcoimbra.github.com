@@ -289,7 +289,7 @@ img { display: block; }
 /* line 136, ../_sass/style.scss */
 #container { position: relative; }
 /* line 138, ../_sass/style.scss */
-#container #footer { position: relative; display: block; width: 250px; margin: 10px auto 0; font-size: 10px; }
+#container #footer { position: relative; display: block; width: 250px; margin: 10px auto 20px; font-size: 10px; }
 
 /* line 147, ../_sass/style.scss */
 #banners { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #9c9c9c; color: white; margin-bottom: 20px; padding: 5px 10px; font-size: 15px; }
