@@ -2,6 +2,7 @@ server:      true
 auto:        true
 lsi:         true
 pygments:    true
+markdow:     kramdown
 permalink:   date
 
 exclude:
