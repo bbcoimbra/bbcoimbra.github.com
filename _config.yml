@@ -2,7 +2,6 @@ server:      true
 auto:        true
 lsi:         true
 pygments:    true
-markdown:    rdiscount
 permalink:   date
 
 exclude:
