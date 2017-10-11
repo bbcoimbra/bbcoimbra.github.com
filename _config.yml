@@ -1,7 +1,7 @@
 server:      true
 auto:        true
 lsi:         true
-pygments:    true
+highligher:  rouge
 markdow:     kramdown
 permalink:   date
 
