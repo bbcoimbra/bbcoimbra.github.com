@@ -1,97 +1,76 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="author" content="Bruno de Brito Coimbra" />
-		<meta name="description" content="Blog pessoal de Bruno de Brito Coimbra" />
-		<meta name="keywords" content="programação, bbcoimbra, ruby, C, compiladores, linux, vim"/>
-		<link rel="stylesheet" href="/stylesheets/style.css" type="text/css" />
-		<link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
-		<!--[if lt IE 8]>
-		<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-		<![endif]-->
-		<link rel="stylesheet" href="/stylesheets/pygments.css" type="text/css" />
-		<title>{% if page.title %} {{page.title}} | {% endif %}bbcoimbra's Blog</title>
-	</head>
-	<body class="two-col">
-		<a href="https://github.com/bbcoimbra">
-			<img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png" alt="Fork me on GitHub">
-		</a>
-		<div id="container">
-			<header id="header">
-				<hgroup>
-					<h1>bbcoimbra's Blog</h1>
-					<h3>wyrd bið ful aræd</h3>
-				</hgroup>
-			</header>
-			<nav class='menu'>
-				<ul>
-					<li><a href='/'>Home</a></li>
-					<li><a href='/posts.html'>Postagens</a></li>
-					<li><a href='/about.html'>Sobre</a></li>
-					<li><a href='/bucket_list.html'>Bucket List</a></li>
-					<li><a href='/feed.atom'>Posts Feed</a></li>
-				</ul>
-			</nav>
-			<div id='middle'>
-				<div id='content'>
-					{{ content }}
-				</div>
-				<aside id='sidebar'>
-					<!--
-					<div id='banners'>
-						<div class="banner">
-						</div>
-					</div>
-						-->
-					<div id='contacts'>
-						<h1>Contatos</h1>
-						<ul>
-							<li><a href='http://facebook.com/bbcoimbra'>Facebook</a></li>
-							<li><a href='http://github.com/bbcoimbra'>GitHub</a></li>
-							<li><a href='http://linkedin.com/in/bbcoimbra'>LinkedIn</a></li>
-							<li><a href='http://twitter.com/bbcoimbra'>Twitter</a></li>
-						</ul>
-					</div>
-					<div id='blogroll'>
-						<h1>Desenvolvedores</h1>
-						<ul>
-							<li><a href='http://qmx.me/'>qmx Weblog</a></li>
-							<li><a href='http://vinibaggio.net/'>vinibaggio.net</a></li>
-							<li><a href='http://pothix.com/blog'>PotHix</a></li>
-							<li><a href='http://andersonleiteblog.wordpress.com/'>andersonleite</a></li>
-						</ul>
-						<h1>Designers</h1>
-						<ul>
-							<li><a href='http://www.siqueiradesigner.com/'>Flávia Siqueira</a></li>
-							<li><a href='http://incensoouroemirra.tumblr.com/'>mjcoffeeholick</a></li>
-						</ul>
-						<h1>Outros</h1>
-						<ul>
-							<li><a href='http://musicontos.wordpress.com/'>MusiContos</a></li>
-						</ul>
-					</div>
-				</aside>
-				<div class='clear'></div>
-			</div>
-			<footer id="footer">
-				blog.bbcoimbra.com &mdash; alguns direitos reservados
-				<a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">
-					<img src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0" alt="Contrat Creative Commons">
-				</a>
-			</footer>
-		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-17263530-1']);
-			_gaq.push(['_trackPageview']);
-			(function() {
-			 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			 })();
-		 </script>
-		</body>
-	</html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bruno de Brito Coimbra" />
+    <meta name="description" content="Blog pessoal de Bruno de Brito Coimbra" />
+    <meta name="keywords" content="programação, bbcoimbra, ruby, C, compiladores, linux, vim"/>
+    <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" />
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 8]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link rel="stylesheet" href="/stylesheets/pygments.css" type="text/css" />
+    <title>{% if page.title %} {{page.title}} | {% endif %}bbcoimbra's Blog</title>
+  </head>
+  <body class="two-col">
+    <a href="https://github.com/bbcoimbra">
+      <img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png" alt="Fork me on GitHub">
+    </a>
+    <div id="container">
+      <header id="header">
+        <hgroup>
+        <h1>bbcoimbra's Blog</h1>
+        <h3>wyrd bið ful aræd</h3>
+        </hgroup>
+      </header>
+      <nav class='menu'>
+        <ul>
+          <li><a href='/'>Home</a></li>
+          <li><a href='/posts.html'>Postagens</a></li>
+          <li><a href='/about.html'>Sobre</a></li>
+          <li><a href='/bucket_list.html'>Bucket List</a></li>
+          <li><a href='/feed.atom'>Posts Feed</a></li>
+        </ul>
+      </nav>
+      <div id='middle'>
+        <div id='content'>
+          {{ content }}
+        </div>
+        <aside id='sidebar'>
+          <div id='contacts'>
+            <h1>Social</h1>
+            <ul>
+              <li><a href='https://github.com/bbcoimbra'>GitHub</a></li>
+              <li><a href='https://refind.com/bbcoimbra?invite=FRs2MVs9ME'>Refind</a></li>
+              <li><a href='https://pt.stackoverflow.com/users/202/bruno-coimbra'>stack<b>overflow</b></a></li>
+              <li><a href='https://open.spotify.com/user/bbcoimbra'>Spotify</a></li>
+              <li><a href='https://twitter.com/bbcoimbra'>Twitter</a></li>
+              <li><a href='https://linkedin.com/in/bbcoimbra'>LinkedIn</a></li>
+              <li><a href='https://facebook.com/bbcoimbra'>Facebook</a></li>
+            </ul>
+          </div>
+        </aside>
+        <div class='clear'></div>
+      </div>
+      <footer id="footer">
+        blog.bbcoimbra.com &mdash; alguns direitos reservados
+        <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">
+          <img src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0" alt="Contrat Creative Commons">
+        </a>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17263530-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
