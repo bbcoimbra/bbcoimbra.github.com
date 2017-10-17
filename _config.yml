@@ -4,7 +4,11 @@ lsi:         true
 highligher:  rouge
 markdow:     kramdown
 permalink:   date
-
+feed:
+  path: /feed.atom
 exclude:
   - README.md
   - config.rb
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
