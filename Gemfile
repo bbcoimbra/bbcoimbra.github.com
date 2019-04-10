@@ -5,6 +5,7 @@ gem "compass"
 gem "sass"
 gem "jekyll-sitemap"
 gem "jekyll-feed"
+gem "classifier-reborn"
 
 group :development do
   gem 'watchr'

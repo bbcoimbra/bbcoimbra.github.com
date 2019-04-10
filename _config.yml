@@ -1,5 +1,4 @@
-server:      true
-auto:        true
+serve:       true
 lsi:         true
 highligher:  rouge
 markdow:     kramdown
