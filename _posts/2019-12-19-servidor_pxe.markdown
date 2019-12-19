@@ -152,6 +152,6 @@ Instruções no cliente PXE Windows
 Referências:
 ------------
 
-[Configuração servidor PXE](https://linuxhint.com/pxe_boot_ubuntu_server/)
-[Adição da imagem Win10](https://docs.j7k6.org/windows-10-pxe-installation/)
-[Várias configurações de PXE com UEFI](https://github.com/tianocore/tianocore.github.io/wiki/Configuring-PXE-Boot-Servers-for-UEFI)
+* [Configuração servidor PXE](https://linuxhint.com/pxe_boot_ubuntu_server/)
+* [Adição da imagem Win10](https://docs.j7k6.org/windows-10-pxe-installation/)
+* [Várias configurações de PXE com UEFI](https://github.com/tianocore/tianocore.github.io/wiki/Configuring-PXE-Boot-Servers-for-UEFI)
